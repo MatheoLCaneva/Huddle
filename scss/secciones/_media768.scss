@@ -1,0 +1,22 @@
+@media (max-width:768px){
+    .main-estadisticas{
+        grid-template-columns: 1fr;
+        grid-template-rows: .1fr 1fr 1fr .1fr 1fr 1fr;
+        grid-template-areas: "comunidad" "titulo1" "titulo1_texto" "mensaje" "titulo2" "titulo2_texto";
+    }
+
+    .descripciones{
+
+        .descripciones-texto{
+            padding-top: 80px;
+            h3{
+                text-align: center;
+            }
+        }
+        flex-direction: column-reverse;
+    }
+
+    .descripciones-segunda{
+        flex-direction: column-reverse;
+    }
+}
