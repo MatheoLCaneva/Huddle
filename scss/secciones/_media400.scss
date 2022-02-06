@@ -1,0 +1,63 @@
+@media (max-width:400px){
+    .header-componentes{
+        img{
+            width: 132px;
+        }        
+
+        p{
+            width: 98px;
+            padding: 0;
+        }
+    }
+
+    br{
+        display: none;
+    }
+    .main-titulo{
+        text-align: center;
+
+        h1{
+            font-size: 15px;
+        }
+        sub{
+            font-size: 12px;
+        }
+
+        button{
+            width: 169px;
+
+        }
+    }
+
+    .descripciones{
+        margin-top: 100px;
+
+        .descripciones-texto{
+            padding-top: 24px;
+        }
+    }
+
+    .section-comenzar{
+        margin: 122px 0;
+    }
+
+    .footer-componentes{
+        .footer-componentes-derecho{
+            form{
+                input[type="email"]{
+                    width: 70%;
+                }
+
+                input[type="submit"]{
+                    width: 40%;
+                }
+            }
+        }
+
+        .footer-componentes-izquierdo{
+            .logo_footer{
+                width: 60%;
+            }
+        }
+    }
+}

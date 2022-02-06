@@ -143,10 +143,65 @@
     grid-template-rows: .1fr 1fr 1fr .1fr 1fr 1fr;
     grid-template-areas: "comunidad" "titulo1" "titulo1_texto" "mensaje" "titulo2" "titulo2_texto"; }
   .descripciones, .descripciones-segunda {
-    flex-direction: column-reverse; }
+    flex-direction: column-reverse;
+    margin-top: 277px; }
     .descripciones .descripciones-texto, .descripciones-segunda .descripciones-texto {
-      padding-top: 80px; }
+      padding-top: 45px; }
       .descripciones .descripciones-texto h3, .descripciones-segunda .descripciones-texto h3 {
         text-align: center; }
-  .descripciones-segunda {
-    flex-direction: column-reverse; } }
+      .descripciones .descripciones-texto p, .descripciones-segunda .descripciones-texto p {
+        text-align: center; }
+  .section-comenzar {
+    margin: 190px 0; }
+  .footer-componentes {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: normal; }
+    .footer-componentes .footer-componentes-izquierdo {
+      margin-top: 144px;
+      margin-left: 0%; }
+    .footer-componentes .footer-componentes-derecho {
+      width: 100%;
+      text-align: center; }
+      .footer-componentes .footer-componentes-derecho p {
+        padding: 15px 0; }
+      .footer-componentes .footer-componentes-derecho form {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-componentes .footer-componentes-derecho form input[type="email"], .footer-componentes .footer-componentes-derecho form input[type="submit"] {
+          width: 40%; }
+        .footer-componentes .footer-componentes-derecho form input[type="submit"] {
+          width: 20%;
+          margin-left: 0;
+          margin-top: 15px; } }
+
+@media (max-width: 400px) {
+  .header-componentes img {
+    width: 132px; }
+  .header-componentes p {
+    width: 98px;
+    padding: 0; }
+  br {
+    display: none; }
+  .main-titulo {
+    text-align: center; }
+    .main-titulo h1 {
+      font-size: 15px; }
+    .main-titulo sub {
+      font-size: 12px; }
+    .main-titulo button {
+      width: 169px; }
+  .descripciones, .descripciones-segunda {
+    margin-top: 100px; }
+    .descripciones .descripciones-texto, .descripciones-segunda .descripciones-texto {
+      padding-top: 24px; }
+  .section-comenzar {
+    margin: 122px 0; }
+  .footer-componentes .footer-componentes-derecho form input[type="email"], .footer-componentes .footer-componentes-derecho form input[type="submit"] {
+    width: 70%; }
+  .footer-componentes .footer-componentes-derecho form input[type="submit"] {
+    width: 40%; }
+  .footer-componentes .footer-componentes-izquierdo .logo_footer {
+    width: 60%; } }

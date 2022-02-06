@@ -1,22 +1,67 @@
-@media (max-width:768px){
-    .main-estadisticas{
+@media (max-width:768px) {
+    .main-estadisticas {
         grid-template-columns: 1fr;
         grid-template-rows: .1fr 1fr 1fr .1fr 1fr 1fr;
-        grid-template-areas: "comunidad" "titulo1" "titulo1_texto" "mensaje" "titulo2" "titulo2_texto";
+        grid-template-areas: "comunidad""titulo1""titulo1_texto""mensaje""titulo2""titulo2_texto";
     }
 
-    .descripciones{
+    .descripciones {
+        flex-direction: column-reverse;
+        margin-top: 277px;
 
-        .descripciones-texto{
-            padding-top: 80px;
-            h3{
+
+        .descripciones-texto {
+            padding-top: 45px;
+
+            h3 {
+                text-align: center;
+            }
+            
+            p{
                 text-align: center;
             }
         }
-        flex-direction: column-reverse;
+
     }
 
-    .descripciones-segunda{
+    .section-comenzar{
+        margin: 190px 0;
+    }
+
+    .footer-componentes{
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: normal;
+
+        .footer-componentes-izquierdo{
+            margin-top: 144px;
+            margin-left: 0%;
+        }
+
+        .footer-componentes-derecho{
+            width: 100%;
+            text-align: center;
+
+            p{
+                padding: 15px 0;
+            }
+
+            form{
+                padding-top: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                input[type="email"]{
+                    width: 40%;
+                }
+
+                input[type="submit"]{
+                    width: 20%;
+                    margin-left: 0;
+                    margin-top: 15px;
+                }
+            }
+        }
     }
 }
